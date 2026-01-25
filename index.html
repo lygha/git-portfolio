@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Your Name</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Porfolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <div class="profile-photo">
+                    <img src="1739693881288.jpg" alt="Profile Photo">
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">Ahmad Ghalayini</h1>
+                <p class="hero-tagline">Software Developer | Learning Full-Stack & Cybersecurity</p>
+                <p class="hero-subtitle">Building applications with a focus on fundamentals, security, and real-world practice</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    I’m a Computer Engineering undergraduate who 
+                    genuinely enjoys building things and figuring 
+                    out how systems work — from code to hardware. 
+                    I’m still learning, and I don’t pretend to know everything, 
+                    but I’m curious, motivated, and serious about improving my skills. 
+                </p>
+                <p>
+                 Right now, I’m focusing on React and backend development, trying to 
+                 understand how real-world applications are designed, built, and scaled. 
+                 I enjoy working on projects that combine logic, structure, and problem-solving,
+                 whether that’s a web app, a system-level project, or something that connects software with hardware.
+                </p>
+                
+                <p>
+                I’m also interested in AI, IoT, and cybersecurity, and I see my learning 
+                path as something broad rather than limited to a single field. My goal isn’t 
+                to rush into a title like “full-stack developer,” but to build a strong foundation, 
+                gain hands-on experience, and grow into it naturally over time.
+                </p>
+                <p>
+                I learn best by doing — experimenting, breaking things, fixing them, and improving. 
+                I’m always looking to expand my knowledge, take on new challenges, and work on projects
+                 that actually solve problems and just work.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <!-- Frontend Development -->
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend Development</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-tag">HTML5</span></li>
+                        <li><span class="skill-tag">CSS3</span></li>
+                        <li><span class="skill-tag">JavaScript (ES6+)</span></li>
+                        <li><span class="skill-tag">React (learning)</span></li>
+                    </ul>
+                </div>
+
+                <!-- Backend & Databases -->
+                <div class="skill-category">
+                    <h3 class="category-title">Backend & Databases</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-tag">Supabase</span></li>
+                        <li><span class="skill-tag">MySQL / SQL</span></li>
+                    </ul>
+                </div>
+
+                <!-- Programming & CS -->
+                <div class="skill-category">
+                    <h3 class="category-title">Programming & CS</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-tag">Python</span></li>
+                        <li><span class="skill-tag">C / C++</span></li>
+                        <li><span class="skill-tag">Java</span></li>
+                        <li><span class="skill-tag">OOP</span></li>
+                        <li><span class="skill-tag">Data Structures</span></li>
+                        <li><span class="skill-tag">Algorithms</span></li>
+                    </ul>
+                </div>
+
+                <!-- IoT & Embedded -->
+                <div class="skill-category">
+                    <h3 class="category-title">IoT & Embedded Systems</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-tag">Arduino</span></li>
+                        <li><span class="skill-tag">ESP8266 / ESP32</span></li>
+                        <li><span class="skill-tag">Sensors & Actuators</span></li>
+                        <li><span class="skill-tag">MQTT</span></li>
+                        <li><span class="skill-tag">Microprocessors</span></li>
+                    </ul>
+                </div>
+
+                <!-- Cybersecurity Foundations -->
+                <div class="skill-category">
+                    <h3 class="category-title">Cybersecurity (Foundations)</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-tag">Networking Fundamentals</span></li>
+                        <li><span class="skill-tag">TCP/IP & Protocols</span></li>
+                        <li><span class="skill-tag">Cryptography Basics</span></li>
+                        <li><span class="skill-tag">Encryption & Hashing</span></li>
+                        <li><span class="skill-tag">Security Best Practices</span></li>
+                    </ul>
+                </div>
+
+                <!-- Security Tools & Labs -->
+                <div class="skill-category">
+                    <h3 class="category-title">Security Tools & Labs</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-tag">Nmap</span></li>
+                        <li><span class="skill-tag">Bettercap</span></li>
+                        <li><span class="skill-tag">OWASP ZAP</span></li>
+                        <li><span class="skill-tag">Metasploit</span></li>
+                        <li><span class="skill-tag">msfvenom</span></li>
+                        <li><span class="skill-tag">BeEF</span></li>
+                    </ul>
+                </div>
+
+                <!-- Tools & Environment -->
+                <div class="skill-category">
+                    <h3 class="category-title">Tools & Environment</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-tag">Git</span></li>
+                        <li><span class="skill-tag">GitHub</span></li>
+                        <li><span class="skill-tag">GitHub Desktop</span></li>
+                        <li><span class="skill-tag">VS Code</span></li>
+                        <li><span class="skill-tag">Linux (basic)</span></li>
+                    </ul>
+                </div>
+
+                <!-- Professional Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title">Professional Skills</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-tag">Independent Learning</span></li>
+                        <li><span class="skill-tag">Team Collaboration</span></li>
+                        <li><span class="skill-tag">Communication</span></li>
+                        <li><span class="skill-tag">Problem Solving</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Airplane Reservation System</h3>
+                    </div>
+                    <p class="project-description">
+                        A console-based system for booking and managing airplane reservations with backend logic and file handling. Implements algorithms for seat management and data persistence.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C</span>
+                        <span class="tech-tag">Algorithms</span>
+                        <span class="tech-tag">Data Structures</span>
+                    </div>
+                    
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">IEEE-Linktree Website</h3>
+                    </div>
+                    <p class="project-description">
+                        Multi-section website with clean UI and Linktree-style navigation. Features an admin panel for easy content management and real-time updates.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Supabase</span>
+                    </div>
+                    <a href="https://github.com/lygha/IEEE-Linktree" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Home Defense & Tracking System</h3>
+                    </div>
+                    <p class="project-description">
+                        IoT-based security system featuring keypad authentication, intrusion detection, and a tracking robot using computer vision for real-time monitoring.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">ESP8266/ESP32</span>
+                        <span class="tech-tag">MQTT</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+            
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Digital Systems Design Project</h3>
+                    </div>
+                    <p class="project-description">
+                        Smart door system integrating password access, servo control, ultrasonic sensor for presence detection, and WhatsApp notifications for security alerts.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">ESP8266</span>
+                        <span class="tech-tag">Servo Motors</span>
+                        <span class="tech-tag">Arduino Cloud</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                    
+                </div>
+
+                <!-- Project Card 5 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Hand Gesture Recognition System</h3>
+                    </div>
+                    <p class="project-description">
+                        Real-time gesture recognition using machine learning to control smart home devices. Features ML classification and MQTT-based IoT integration for seamless automation.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">MediaPipe</span>
+                        <span class="tech-tag">ML Classification</span>
+                        <span class="tech-tag">MQTT</span>
+                        <span class="tech-tag">IoT</span>
+                    </div>
+                  
+                </div>
+
+                <!-- Project Card 6 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Encrypted P2P Chat App</h3>
+                    </div>
+                    <p class="project-description">
+                        Secure peer-to-peer chat app with end-to-end encryption using Diffie–Hellman key exchange, DES-CBC encryption, and HMAC authentication for message integrity.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Cryptography</span>
+                        <span class="tech-tag">Diffie-Hellman</span>
+                        <span class="tech-tag">Socket Programming</span>
+                        <span class="tech-tag">GUI</span>
+                    </div>
+                    <a href="https://github.com/lygha/P2p-Encrypted-Chat-" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">I'm always interested in hearing about new opportunities and projects.</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:ahmadghala.26@gmail.com">ahmadghala.26@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Beirut, Lebanon</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <h3>Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/lygha" target="_blank" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ahmad-ghalayini-b2391a1b2" target="_blank" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <button class="social-icon" id="phoneBtn" title="Phone">
+                            <i class="fas fa-phone"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phone Modal -->
+    <div id="phoneModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h2>Contact Me</h2>
+            <p class="modal-phone">+961 70501316</p>
+            <p class="modal-subtitle">Click to copy the number</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Ahmad Ghalayini. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Minimal JavaScript for mobile menu -->
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        const phoneBtn = document.querySelector('#phoneBtn');
+        const phoneModal = document.querySelector('#phoneModal');
+        const modalClose = document.querySelector('.modal-close');
+        const modalPhone = document.querySelector('.modal-phone');
+
+        // Hamburger menu toggle
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        // Phone modal functionality
+        phoneBtn.addEventListener('click', () => {
+            phoneModal.classList.add('active');
+        });
+
+        modalClose.addEventListener('click', () => {
+            phoneModal.classList.remove('active');
+        });
+
+        phoneModal.addEventListener('click', (e) => {
+            if (e.target === phoneModal) {
+                phoneModal.classList.remove('active');
+            }
+        });
+
+        // Copy phone number to clipboard when clicked
+        modalPhone.addEventListener('click', () => {
+            const phoneNumber = modalPhone.textContent;
+            navigator.clipboard.writeText(phoneNumber).then(() => {
+                modalPhone.textContent = 'Copied to clipboard!';
+                setTimeout(() => {
+                    modalPhone.textContent = '+96170501316';
+                }, 2000);
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
